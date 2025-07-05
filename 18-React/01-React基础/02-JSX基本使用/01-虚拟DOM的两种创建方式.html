@@ -33,12 +33,12 @@
 
   <!-- 方式二： 使用jsx语法创建虚拟DOM -->
   <script type="text/babel">
-    let vDOM2 =
+    let vDOM2 =（
       <h2 id={myID.toUpperCase()}>
         <span className="red">
           {myData.toUpperCase()}
         </span>
-      </h2>
+      </h2>）
     ReactDOM.render(vDOM2, document.getElementById('test2'))
   </script>
 </body>
